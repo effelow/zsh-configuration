@@ -10,12 +10,14 @@ This repo holds useful ZSH configurations. The .zshrc contains a set of tricks a
 * [themes] 
 * [Fonts] 
 * [agnoster-zsh-theme] 
+* [ohmyzsh-basic-installation]
 
 
 [switching-to-zsh]:                         http://zpalexander.com/switching-to-zsh/
 [themes]:                                   https://github.com/ohmyzsh/ohmyzsh/wiki/themes
 [fonts]:                                    https://github.com/powerline/fonts
 [agnoster-zsh-theme]:                       https://github.com/agnoster/agnoster-zsh-theme
+[ohmyzsh-basic-installation]:               https://github.com/ohmyzsh/ohmyzsh#basic-installation
 
 ## Prerequs
 
