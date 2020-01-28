@@ -1,7 +1,7 @@
 # ZSH Configuration
 
 ##  Description: 
-This repo holds useful ZSH configurations. The .zshrc contains a set of tricks and tweeks that eases your when life working with the iTerm2.
+The Z shell (zsh) is becomming more popular due to huge community support and plugins and lastly, after all macOS is replacing bash with zsh as default shell. This repo holds useful ZSH configurations. The `.zshrc` file contains a set of tricks and tweeks that eases your life when working with iTerm2.
 
 
 ## Work from others
@@ -21,8 +21,7 @@ This repo holds useful ZSH configurations. The .zshrc contains a set of tricks a
 
 ## Prerequs
 
-
-zsh must be installed. "which" output should be /bin/zsh
+zsh must be installed. "which" output should be `/bin/zsh`
 ```console
 $ which zsh
 ```
@@ -47,23 +46,23 @@ Navigate to fonts directory.
 $ cd fonts/
 ```
 
-Execute the install Script and the fonts will be installed
+Execute the install script and the fonts will be installed
 ```console
 $ ./install.sh
 ```
 
-Edit the value ZSH_THEME Variable in your .zshrc to to setup the agnoster theme
+Edit the value ZSH_THEME Variable in your .zshrc to setup the agnoster theme
 
 ```console
 ZSH_THEME="agnoster"
 ```
 
-Add the prompt_context at the bottom of your .zshrc to hide username when you are logged in as yourself
+Add the prompt context at the bottom of your `.zshrc` to hide username when you are logged in as yourself
 
 ```console
 prompt_context() {}
 ```
 
 
-Finally, to configure your preferred color settings in iterm2, go to preferences --> Profiles --> Text. Under font choose "Meslo LG L for Powerline" and make sure to uncheck "Use a different font for non-ASCII text". 
+Finally, to configure your preferred color settings in iTerm2, go to preferences --> Profiles --> Text. Under font choose "Meslo LG L for Powerline" and make sure to uncheck "Use a different font for non-ASCII text". 
 
