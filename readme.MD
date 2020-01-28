@@ -51,7 +51,7 @@ Execute the install script and the fonts will be installed
 $ ./install.sh
 ```
 
-Edit the value ZSH_THEME Variable in your .zshrc to setup the agnoster theme
+Edit the value ZSH_THEME Variable in your `.zshrc` to setup the agnoster theme
 
 ```console
 ZSH_THEME="agnoster"
