@@ -1,6 +1,6 @@
 # ZSH Configuration
 
-##  Description: 
+##  Description
 The Z shell (zsh) is becomming more popular due to huge community support and plugins and lastly, after all macOS is replacing bash with zsh as default shell. This repo holds useful ZSH configurations. The `.zshrc` file contains a set of tricks and tweeks that eases your life when working with iTerm2.
 
 
@@ -8,7 +8,7 @@ The Z shell (zsh) is becomming more popular due to huge community support and pl
 
 * [switching-to-zsh] Thanks to Zach Alexander
 * [themes] 
-* [Fonts] 
+* [fonts] 
 * [agnoster-zsh-theme] 
 * [ohmyzsh-basic-installation]
 
