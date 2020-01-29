@@ -29,7 +29,7 @@ $ which zsh
 
 ## Installation
 
-Intall from git repo into your home directory
+Intall from git repo into your home directory. (In case you get asked to change the default shell to zsh you can say "Yes")
 
 ```console
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
