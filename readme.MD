@@ -1,7 +1,7 @@
 # ZSH Configuration
 
 ##  Description
-The Z shell (zsh) is becomming more popular due to huge community support and plugins and lastly, after all macOS is replacing bash with zsh as default shell. This repo holds useful ZSH configurations. The `.zshrc` file contains a set of tricks and tweeks that eases your life when working with iTerm2.
+The Z shell (zsh) is becomming more popular due to huge community support and plugins and lastly, after all macOS is replacing bash with zsh as default shell. This repo holds useful ZSH configurations. The `.zshrc` file contains a set of tricks and tweeks that eases your life when working with iTerm2 on macOS.
 
 
 ## Work from others
@@ -21,7 +21,9 @@ The Z shell (zsh) is becomming more popular due to huge community support and pl
 
 ## Prerequs
 
-zsh must be installed. "which" output should be `/bin/zsh`
+* git
+* iTerm2
+* zsh must be installed. "which" output should be `/bin/zsh`
 ```console
 $ which zsh
 ```
@@ -51,7 +53,7 @@ Execute the install script and the fonts will be installed
 $ ./install.sh
 ```
 
-Edit the value ZSH_THEME Variable in your `.zshrc` to setup the agnoster theme
+Go back to your home direcory by typing `cd`. Edit the value ZSH_THEME Variable in your `.zshrc` to setup the agnoster theme
 
 ```console
 ZSH_THEME="agnoster"
