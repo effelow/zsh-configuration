@@ -53,16 +53,16 @@ Execute the install script and the fonts will be installed
 $ ./install.sh
 ```
 
-Go back to your home direcory by typing `cd`. Edit the value ZSH_THEME Variable in your `.zshrc` to setup the agnoster theme
+Go back to your home direcory by typing `cd`. Open the `.zshrc` file and edit the value of the variable ZSH_THEME to setup the agnoster theme
 
 ```console
 ZSH_THEME="agnoster"
 ```
 
-Add the prompt context at the bottom of your `.zshrc` to hide username when you are logged in as yourself
+Add the prompt context at the bottom of your `.zshrc` to hide username when you are logged in as yourself. Just type:
 
 ```console
-prompt_context() {}
+echo 'prompt_context() {}" >> .zshrc
 ```
 
 
