@@ -34,26 +34,26 @@ $ which zsh
 Intall from git repo into your home directory. (In case you get asked to change the default shell to zsh you can say "Yes")
 
 ```console
-$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 Download the git repo into a directory of your choice. I just put it in a directory named "github" in my home directory.
 
 ```console
-$ git clone https://github.com/powerline/fonts.git
+git clone https://github.com/powerline/fonts.git
 ```
 
 Navigate to fonts directory.
 ```console
-$ cd fonts/
+cd fonts/
 ```
 
-Execute the install script and the fonts will be installed
+Execute the install script and the fonts will be installed. Afterwards go back to your home direcory by adding `cd`. 
 ```console
-$ ./install.sh
+./install.sh; cd
 ```
 
-Go back to your home direcory by typing `cd`. Open the `.zshrc` file and edit the value of the variable ZSH_THEME to setup the agnoster theme
+Open the `.zshrc` file and edit the value of the variable ZSH_THEME to setup the agnoster theme
 
 ```console
 ZSH_THEME="agnoster"
@@ -62,7 +62,7 @@ ZSH_THEME="agnoster"
 Add the prompt context at the bottom of your `.zshrc` to hide username when you are logged in as yourself. Just type:
 
 ```console
-echo 'prompt_context() {}" >> .zshrc
+echo 'prompt_context() {}' >> .zshrc
 ```
 
 
