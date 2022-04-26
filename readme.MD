@@ -11,6 +11,7 @@ The Z shell (zsh) is becomming more popular due to huge community support and pl
 * [fonts] 
 * [agnoster-zsh-theme] 
 * [ohmyzsh-basic-installation]
+* [color-theme-installation]
 
 
 [switching-to-zsh]:                         http://zpalexander.com/switching-to-zsh/
@@ -18,6 +19,7 @@ The Z shell (zsh) is becomming more popular due to huge community support and pl
 [fonts]:                                    https://github.com/powerline/fonts
 [agnoster-zsh-theme]:                       https://github.com/agnoster/agnoster-zsh-theme
 [ohmyzsh-basic-installation]:               https://github.com/ohmyzsh/ohmyzsh#basic-installation
+[color-theme-installation]:                 https://gabrieltanner.org/blog/customizing-terminal-using-ohmyzsh
 
 ## Prerequs
 
@@ -65,6 +67,15 @@ Add the prompt context at the bottom of your `.zshrc` to hide username when you 
 echo 'prompt_context() {}' >> .zshrc
 ```
 
+Install the solarized iTerm color theme
 
-Finally, to configure your preferred color settings in iTerm2, go to preferences --> Profiles --> Text. Under font choose "Meslo LG L for Powerline" and make sure to uncheck "Use a different font for non-ASCII text". 
+```console
+git clone https://github.com/aruhier/gnome-terminal-colors-solarized.git
+cd gnome-terminal-colors-solarized
+./install.sh
+```
+
+To configure the the solarized color them go to preferences --> Profiles --> Colors --> in the "Color Presets dropdown, choose solarized dark or light
+
+Finally the right font in iTerm2, go to preferences --> Profiles --> Text. Under font choose "Meslo LG L for Powerline" and make sure to uncheck "Use a different font for non-ASCII text". 
 
