@@ -21,7 +21,7 @@ The Z shell (zsh) is becomming more popular due to huge community support and pl
 
 ## Prerequs
 
-* git, iTerm2 (see the details in the [setup.sh](.mac-setup/setup.sh) for latest M1 Mac)
+* git, iTerm2 (see the details in the [setup.sh](./setup.sh) for latest M1 Mac)
 * zsh must be installed. "which" output should be `/bin/zsh`
 ```console
 $ which zsh
