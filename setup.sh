@@ -15,6 +15,9 @@ fi
 
 echo 'export PATH="/opt/homebrew/bin:$PATH"' >> $HOME/.zshrc
 
+# source ./zshrc to make brew usable
+source $HOME/.zshrc
+
 # Update homebrew recipes
 echo "Updating homebrew..."
 brew update
