@@ -34,3 +34,29 @@ echo "Installing homebrew cask"
 brew install caskroom/cask/brew-cask
 
 brew install --cask iterm2
+brew install --cask alfred
+
+brew cask cleanup
+
+
+echo "Setting some Mac settings..."
+
+#"Allow text selection in Quick Look"
+defaults write com.apple.finder QLEnableTextSelection -boolean YES
+
+#"Check for software updates daily, not just once per week"
+defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+
+#"Showing all filename extensions in Finder by default"
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+#"Disabling the warning when changing a file extension"
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+#"Show hidden files in finder"
+defaults write com.apple.Finder AppleShowAllFiles -bool true
+
+#"Restart finder to apply settings"
+killall Finder
+
+echo "Done!"
