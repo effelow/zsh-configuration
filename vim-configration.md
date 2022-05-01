@@ -1,6 +1,13 @@
 # Vim Configuration
 
+
 To make vim look a little better, e.g. syntax highlighting
+
+## prerequs
+
+- xcode installed
+
+## instsall
 
 follow the guide from here:
 
