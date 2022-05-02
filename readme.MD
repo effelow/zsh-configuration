@@ -54,7 +54,22 @@ Execute the install script and the fonts will be installed. Afterwards go back t
 ./install.sh; cd
 ```
 
-Open the `.zshrc` file and edit the value of the variable ZSH_THEME to setup the agnoster theme
+
+### Enable word jumps and word deletion:
+By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to "iTerm → Preferences → Profiles → Keys → Presets... → Natural Text Editing
+
+*(source: [kevin smets](https://gist.github.com/kevin-smets/8568070#enable-word-jumps-and-word-deletion-aka-natural-text-selection))*
+
+### zsh-autosuggestions (Optional, but recommended):
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
+```
+
+Choose one of the options
+
+## Option1: Agnoster Theme
+
+Open the `.zshrc` file and edit the value of the variable `ZSH_THEME` to setup the agnoster theme
 
 ```console
 ZSH_THEME="agnoster"
@@ -78,3 +93,36 @@ To configure the the solarized color them go to preferences --> Profiles --> Col
 
 Finally the right font in iTerm2, go to preferences --> Profiles --> Text. Under font choose "Meslo LG L for Powerline" and make sure to uncheck "Use a different font for non-ASCII text". 
 
+Refs:
+- https://gist.github.com/kevin-smets/8568070#install-with-curl
+
+
+## Option2: Powerlevel10k Theme
+
+
+```
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k\n
+```
+
+Open the `.zshrc` file and edit the value of the variable ZSH_THEME to setup the Powerlevel10k theme
+
+```console
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+
+
+Refs:
+- https://github.com/romkatv/powerlevel10k#extremely-customizable
+- https://gist.github.com/kevin-smets/8568070#powerlevel9k--powerlevel10k
+
+
+## VS Code config
+To make VS Code work with those settings, you'll need to go to settings (CMD + ,) and add or edit the following values:
+
+
+```
+"terminal.integrated.fontFamily": "Meslo LG M for Powerline"
+```
+
+Refs:
+- https://gist.github.com/kevin-smets/8568070#visual-studio-code-config
